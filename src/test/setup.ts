@@ -1,2 +1,1 @@
-// Registre aqui os matchers e ajustes globais do ambiente de testes.
-
+import '@testing-library/jest-dom/vitest';

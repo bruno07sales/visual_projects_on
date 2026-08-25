@@ -1,6 +1,7 @@
 import type { Project } from '../features/projects/types';
 
-const CACHE_KEY = 'github-dashboard:projects';
+// A versão evita reutilizar o cache antigo que continha repositórios de terceiros.
+const CACHE_KEY = 'github-dashboard:projects:v3';
 const CACHE_TTL = 15 * 60 * 1000;
 
 interface ProjectCache {
@@ -24,3 +25,6 @@ export function writeProjectCache(projects: Project[]) {
   localStorage.setItem(CACHE_KEY, JSON.stringify(cache));
 }
 
+export function clearProjectCache() {
+  localStorage.removeItem(CACHE_KEY);
+}

@@ -2,7 +2,7 @@
 
 ## English
 
-> I got tired of opening fifteen GitHub tabs just to figure out which project I was working on—and realized that probably should not be part of the development workflow.
+> I got tired of opening fifteen GitHub tabs just to figure out which project I was working on. And realized that probably should not be part of the development workflow.
 
 **Visual Projects On** is an application for tracking selected projects in one place. The dashboard combines information retrieved from GitHub with manually defined planning data, providing a quick overview of each project's current state.
 
@@ -23,7 +23,7 @@ For each configured repository, the application can display:
 - Next planned task;
 - Project status: planned, active, paused, or completed.
 
-Public repository data will be retrieved through the **official GitHub REST API**. Personal organization details—such as progress, priority, and the next task—will be maintained manually in the project configuration.
+Public repository data will be retrieved through the **official GitHub REST API**. Personal organization details — such as progress, priority, and the next task — will be maintained manually in the project configuration.
 
 ### Objectives
 
@@ -69,7 +69,7 @@ If everything goes well, this dashboard will organize the projects. If it goes r
 
 ## Português
 
-> Cansei de abrir quinze abas do GitHub só para descobrir em qual projeto eu estava trabalhando — e percebi que isso provavelmente não deveria fazer parte do fluxo de desenvolvimento.
+> Cansei de abrir quinze abas do GitHub só para descobrir em qual projeto eu estava trabalhando; e, percebi que isso provavelmente não deveria fazer parte do fluxo de desenvolvimento.
 
 O **Visual Projects On** é uma aplicação para acompanhar, em um único lugar, os projetos selecionados pelo usuário. A dashboard reúne informações obtidas diretamente do GitHub com dados de planejamento definidos manualmente, oferecendo uma visão rápida do estado atual de cada projeto.
 
@@ -90,7 +90,7 @@ Para cada repositório configurado, a aplicação poderá exibir:
 - Próxima tarefa planejada;
 - Status do projeto: planejado, ativo, pausado ou concluído.
 
-Os dados públicos dos repositórios serão consultados por meio da **API REST oficial do GitHub**. Informações de organização pessoal — como progresso, prioridade e próxima tarefa — serão mantidas manualmente na configuração do projeto.
+Os dados públicos dos repositórios serão consultados por meio da **API REST oficial do GitHub**. Informações de organização pessoal como: progresso, prioridade e próxima tarefa, serão mantidas manualmente na configuração do projeto.
 
 ### Objetivos
 
